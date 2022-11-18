@@ -52,11 +52,11 @@ def addExpense():
 def reteriveDetails():
     if request.method=="POST" :
         result = Account.reteriveDetails(conn, request)
-        food=10
-        enter=9
-        shopping=6
-        education=4
-        others=2
+        food=0
+        enter=0
+        shopping=0
+        education=0
+        others=0
         bill=0
         # print('Retrive Details:',result)
         for i in result:
