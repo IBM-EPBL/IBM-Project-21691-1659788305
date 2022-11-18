@@ -21,7 +21,7 @@ def index():
                 sender ='kumar@gmail.com',
                 recipients = ['ajith@gmail.com']
                )
-   msg.body = 'Hello Flask message sent from Flask-Mail'
+   msg.body = 'you have crossed your limit.'
    mail.send(msg)
    return 'Sent'
    
