@@ -18,10 +18,10 @@ mail = Mail(app)
 def index():
    msg = Message(
                 'Alert',
-                sender ='ajithkumarc67@gmail.com',
-                recipients = ['kajithv4@gmail.com']
+                sender ='harish@gmail.com',
+                recipients = ['ajith@gmail.com']
                )
-   msg.body = 'Hello Flask message sent from Flask-Mail'
+   msg.body = 'You have crossed your limit.'
    mail.send(msg)
    return 'Sent'
    
