@@ -18,8 +18,8 @@ mail = Mail(app)
 def index():
    msg = Message(
                 'Alert',
-                sender ='ajithkumarc67@gmail.com',
-                recipients = ['kajithv4@gmail.com']
+                sender ='kumar@gmail.com',
+                recipients = ['ajith@gmail.com']
                )
    msg.body = 'Hello Flask message sent from Flask-Mail'
    mail.send(msg)
